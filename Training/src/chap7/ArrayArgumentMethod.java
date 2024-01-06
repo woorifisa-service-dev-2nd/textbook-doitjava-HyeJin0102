@@ -1,7 +1,5 @@
 package chap7;
 
-import jave.util.Arrays;
-
 public class ArrayArgumentMethod {
 	public static void main(String[] args) {
 		
