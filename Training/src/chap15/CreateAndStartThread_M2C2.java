@@ -1,4 +1,4 @@
-package PracticeQuestion.chap15;
+package chap15;
 
 class SMIFileRunnable2 implements Runnable {
 

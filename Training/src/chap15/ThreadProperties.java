@@ -1,4 +1,4 @@
-package PracticeQuestion.chap15;
+package chap15;
 
 //쓰레드 객체의 속성 다루기
 

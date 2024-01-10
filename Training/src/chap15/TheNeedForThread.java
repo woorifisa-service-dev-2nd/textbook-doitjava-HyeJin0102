@@ -1,4 +1,4 @@
-package PracticeQuestion.chap15;
+package chap15;
 
 public class TheNeedForThread {
 	public static void main(String[] args) {

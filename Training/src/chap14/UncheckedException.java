@@ -1,8 +1,8 @@
 package chap14;
 
-class A {}
+class A6 {}
 
-class B extends A{}
+class B extends A6{}
 
 public class UncheckedException {
 	public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class UncheckedException {
 		System.out.println(3/0);
 		
 		//2.ClassCastException
-		A a = new A();
+		A6 a = new A6();
 		B b = (B)a;
 		
 		//3.ArrayIndexOutOfBoundsException
