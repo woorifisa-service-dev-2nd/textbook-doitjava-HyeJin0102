@@ -20,7 +20,7 @@ class OverException extends Exception {
 	}
 }
 
-class A6 {
+class A7 {
 	void checkScore(int score) throws MinusException, OverException {
 		if(score < 0) {
 			throw new MinusException("예외 발생  : 음숫값 입력");
@@ -34,7 +34,7 @@ class A6 {
 
 public class UserExceptionExample {
 	public static void main(String[] args) {
-		A6 a = new A6();
+		A7 a = new A7();
 		try {
 			a.checkScore(85);
 			a.checkScore(150);
